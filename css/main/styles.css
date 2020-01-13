@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%;
+}
+.navbar-brand img{
+    width: 40px;
+}
+.nav-item a{
+    font-size: 18px !important;
+}
+.btn-login{
+    border: 2px solid red;
+    border-radius: 20px;
+    color: #BBBBBB;
+}
+.btn-signup{
+    border: 2px solid red;
+    border-radius: 20px;
+    background: red;
+    color: #BBBBBB;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media (min-width: 992px){
+    .nav-item{
+        padding-right: 2rem;
+    }
+    .btn-login{
+        margin-right: 1rem;
+    }
+}
+@media (max-width: 992px){
+    .btn-login{
+        margin-right: 10px;
+    }
+}
